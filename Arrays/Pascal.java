@@ -40,7 +40,7 @@ public class Pascal {
     public static void main(String[] args)
     {
         Pascal p = new Pascal();
-        int[][] pascal = p.pascal(5);
+        int[][] pascal = p.pascal(6);
         for(int i=0;i<pascal.length;i++)
         {
             for(int j=0;j<pascal[i].length;j++)
@@ -49,6 +49,7 @@ public class Pascal {
             }
             System.out.println();
         }
+    
     }
     
 }
