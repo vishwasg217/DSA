@@ -1,16 +1,25 @@
+import java.util.HashSet;
+
 class RemoveDuplicates {
-    public int removeDuplicates(int[] nums) {
-        int i = 0;
-    for (int n : nums)
-        if (i == 0 || n > nums[i-1])
-            nums[i++] = n;
-    return i;
+    public boolean removeDuplicates(int[] nums) 
+    {
+        boolean flag = false;
+        int n = nums.length;
+
+        HashSet<Integer> set = new HashSet<Integer>();
+        for(int i=0;i<n;i++)
+        {
+            if(set.contains(nums[i]))
+                return true;
+            set.add(nums[i]);
+        }
+        return flag;
     }
 
     public static void main(String[] args) {
         RemoveDuplicates s = new RemoveDuplicates();
-        int[] nums = {1, 1, 2};
-        int ans = s.removeDuplicates(nums);
+        int[] nums = {1,2,3,4};
+        boolean ans = s.removeDuplicates(nums);
         System.out.println(ans);
     }
 }

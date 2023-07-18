@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Stock",
+            "request": "launch",
+            "mainClass": "Stock",
+            "projectName": "DSA_6ab7b71"
+        },
+        {
+            "type": "java",
+            "name": "ConstainsDup2",
+            "request": "launch",
+            "mainClass": "ConstainsDup2",
+            "projectName": "DSA_6ab7b71"
+        },
+        {
+            "type": "java",
+            "name": "ContainsDuplicates",
+            "request": "launch",
+            "mainClass": "ContainsDuplicates",
+            "projectName": "DSA_6ab7b71"
+        },
+        {
+            "type": "java",
             "name": "MajorityEle",
             "request": "launch",
             "mainClass": "MajorityEle",
