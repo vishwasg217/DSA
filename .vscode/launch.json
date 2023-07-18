@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pascal",
+            "request": "launch",
+            "mainClass": "Pascal",
+            "projectName": "DSA_6ab7b71"
+        },
+        {
+            "type": "java",
             "name": "PlusOne",
             "request": "launch",
             "mainClass": "PlusOne",
