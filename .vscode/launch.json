@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Roman",
+            "request": "launch",
+            "mainClass": "Strings.Roman",
+            "projectName": "DSA_6ab7b71"
+        },
+        {
+            "type": "java",
+            "name": "RotateMatrix",
+            "request": "launch",
+            "mainClass": "RotateMatrix",
+            "projectName": "DSA_6ab7b71"
+        },
+        {
+            "type": "java",
             "name": "Water",
             "request": "launch",
             "mainClass": "Water",
