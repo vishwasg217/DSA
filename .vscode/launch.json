@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sudoku",
+            "request": "launch",
+            "mainClass": "HashTable.Sudoku",
+            "projectName": "DSA_6ab7b71"
+        },
+        {
+            "type": "java",
             "name": "ExcelColumn",
             "request": "launch",
             "mainClass": "Strings.ExcelColumn",
