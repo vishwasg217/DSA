@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExcelColumn",
+            "request": "launch",
+            "mainClass": "Strings.ExcelColumn",
+            "projectName": "DSA_6ab7b71"
+        },
+        {
+            "type": "java",
             "name": "CommonPrefix",
             "request": "launch",
             "mainClass": "Strings.CommonPrefix",
